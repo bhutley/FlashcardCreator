@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B938C2F142A08500099CA0F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B938C2E142A08500099CA0F /* Cocoa.framework */; };
+		8B938C39142A08510099CA0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B938C37142A08500099CA0F /* InfoPlist.strings */; };
+		8B938C3B142A08510099CA0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B938C3A142A08510099CA0F /* main.m */; };
+		8B938C3F142A08510099CA0F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B938C3D142A08510099CA0F /* Credits.rtf */; };
+		8B938C42142A08510099CA0F /* FlashcardCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B938C41142A08510099CA0F /* FlashcardCreatorAppDelegate.m */; };
+		8B938C45142A08510099CA0F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B938C43142A08510099CA0F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B938C2A142A08500099CA0F /* FlashcardCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B938C2E142A08500099CA0F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8B938C31142A08500099CA0F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8B938C32142A08500099CA0F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8B938C33142A08500099CA0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B938C36142A08500099CA0F /* FlashcardCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashcardCreator-Info.plist"; sourceTree = "<group>"; };
+		8B938C38142A08510099CA0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B938C3A142A08510099CA0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B938C3C142A08510099CA0F /* FlashcardCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashcardCreator-Prefix.pch"; sourceTree = "<group>"; };
+		8B938C3E142A08510099CA0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8B938C40142A08510099CA0F /* FlashcardCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashcardCreatorAppDelegate.h; sourceTree = "<group>"; };
+		8B938C41142A08510099CA0F /* FlashcardCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardCreatorAppDelegate.m; sourceTree = "<group>"; };
+		8B938C44142A08510099CA0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B938C27142A08500099CA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B938C2F142A08500099CA0F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B938C1F142A08500099CA0F = {
+			isa = PBXGroup;
+			children = (
+				8B938C34142A08500099CA0F /* FlashcardCreator */,
+				8B938C2D142A08500099CA0F /* Frameworks */,
+				8B938C2B142A08500099CA0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B938C2B142A08500099CA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B938C2A142A08500099CA0F /* FlashcardCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B938C2D142A08500099CA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B938C2E142A08500099CA0F /* Cocoa.framework */,
+				8B938C30142A08500099CA0F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B938C30142A08500099CA0F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B938C31142A08500099CA0F /* AppKit.framework */,
+				8B938C32142A08500099CA0F /* CoreData.framework */,
+				8B938C33142A08500099CA0F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8B938C34142A08500099CA0F /* FlashcardCreator */ = {
+			isa = PBXGroup;
+			children = (
+				8B938C40142A08510099CA0F /* FlashcardCreatorAppDelegate.h */,
+				8B938C41142A08510099CA0F /* FlashcardCreatorAppDelegate.m */,
+				8B938C43142A08510099CA0F /* MainMenu.xib */,
+				8B938C35142A08500099CA0F /* Supporting Files */,
+			);
+			name = FlashcardCreator;
+			path = FlashcardCreator;
+			sourceTree = "<group>";
+		};
+		8B938C35142A08500099CA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B938C36142A08500099CA0F /* FlashcardCreator-Info.plist */,
+				8B938C37142A08500099CA0F /* InfoPlist.strings */,
+				8B938C3A142A08510099CA0F /* main.m */,
+				8B938C3C142A08510099CA0F /* FlashcardCreator-Prefix.pch */,
+				8B938C3D142A08510099CA0F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B938C29142A08500099CA0F /* FlashcardCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B938C48142A08510099CA0F /* Build configuration list for PBXNativeTarget "FlashcardCreator" */;
+			buildPhases = (
+				8B938C26142A08500099CA0F /* Sources */,
+				8B938C27142A08500099CA0F /* Frameworks */,
+				8B938C28142A08500099CA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashcardCreator;
+			productName = FlashcardCreator;
+			productReference = 8B938C2A142A08500099CA0F /* FlashcardCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B938C21142A08500099CA0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stimuli Limited";
+			};
+			buildConfigurationList = 8B938C24142A08500099CA0F /* Build configuration list for PBXProject "FlashcardCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B938C1F142A08500099CA0F;
+			productRefGroup = 8B938C2B142A08500099CA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B938C29142A08500099CA0F /* FlashcardCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B938C28142A08500099CA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B938C39142A08510099CA0F /* InfoPlist.strings in Resources */,
+				8B938C3F142A08510099CA0F /* Credits.rtf in Resources */,
+				8B938C45142A08510099CA0F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B938C26142A08500099CA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B938C3B142A08510099CA0F /* main.m in Sources */,
+				8B938C42142A08510099CA0F /* FlashcardCreatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B938C37142A08500099CA0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B938C38142A08510099CA0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B938C3D142A08510099CA0F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B938C3E142A08510099CA0F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8B938C43142A08510099CA0F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B938C44142A08510099CA0F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B938C46142A08510099CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B938C47142A08510099CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B938C49142A08510099CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashcardCreator/FlashcardCreator-Prefix.pch";
+				INFOPLIST_FILE = "FlashcardCreator/FlashcardCreator-Info.plist";
+				PRODUCT_NAME = FlashcardCreator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B938C4A142A08510099CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashcardCreator/FlashcardCreator-Prefix.pch";
+				INFOPLIST_FILE = "FlashcardCreator/FlashcardCreator-Info.plist";
+				PRODUCT_NAME = FlashcardCreator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B938C24142A08500099CA0F /* Build configuration list for PBXProject "FlashcardCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B938C46142A08510099CA0F /* Debug */,
+				8B938C47142A08510099CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B938C48142A08510099CA0F /* Build configuration list for PBXNativeTarget "FlashcardCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B938C49142A08510099CA0F /* Debug */,
+				8B938C4A142A08510099CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B938C21142A08500099CA0F /* Project object */;
+}
